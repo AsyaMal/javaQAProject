@@ -41,6 +41,6 @@ public class SelenideOnlinerTest extends BaseTest {
                 .as("Accessories doesn't contain min price")
                 .allMatch(i -> i != null)
                 .allMatch(i -> i.contains("от"))
-                .allMatch(i -> i.contains("p."));
+                .allMatch(i -> i.contains("р."));
     }
 }

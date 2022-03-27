@@ -10,6 +10,7 @@
         <module name="OnlinerWebProject" />
         <module name="WebOnliner7Project" />
         <module name="WebDriverProject" />
+        <module name="WebOnlinerSelenideProject" />
       </profile>
     </annotationProcessing>
   </component>
