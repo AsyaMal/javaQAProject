@@ -1,1 +1,0 @@
-{"uuid":"f318d7a0-f4a8-44bf-a8d3-99ae4b008904","name":"Check That Catalog Items Is Not Empty","children":["8885fc5d-d8ec-4813-a343-31e8e06de1e8"],"befores":[{"name":"navigateToOnlinerCatalog","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1648458916580,"stop":1648458919743}],"afters":[],"start":1648458916573,"stop":1648458919992}
