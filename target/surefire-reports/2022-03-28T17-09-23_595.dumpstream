@@ -1,0 +1,21 @@
+# Created at 2022-03-28T17:09:26.591
+[AppClassLoader@266474c2] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created at 2022-03-28T17:09:26.594
+[AppClassLoader@266474c2] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created at 2022-03-28T17:09:27.415
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+# Created at 2022-03-28T17:09:27.416
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+# Created at 2022-03-28T17:09:27.417
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+# Created at 2022-03-28T17:09:29.394
+[DelegatingClassLoader@2a3a299] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+
+# Created at 2022-03-28T17:09:29.397
+[DelegatingClassLoader@2a3a299] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+

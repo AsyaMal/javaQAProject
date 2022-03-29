@@ -1,4 +1,78 @@
 -------------------------------------------------------------------------------
 Test set: com.it_academy.tests.onliner.SelenideOnlinerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.523 s - in com.it_academy.tests.onliner.SelenideOnlinerTest
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.857 s <<< FAILURE! - in com.it_academy.tests.onliner.SelenideOnlinerTest
+testProductsAndDescriptionInAccessoriesAreNotEmpty  Time elapsed: 8.133 s  <<< FAILURE!
+java.lang.AssertionError: 
+[Accessories doesn't contain min price] 
+Expecting all elements of:
+  ["1,622 товара
+от 124,80 р.",
+    "1,147 товаров
+от 57,72 р.",
+    "1,652 товара
+от 140,18 р.",
+    "4,326 товаров
+от 38,01 р.",
+    "3,111 товаров
+от 2,00 р.",
+    "3,062 товара
+от 79,16 р.",
+    "1,092 товара
+от 51,70 р.",
+    "2,699 товаров
+от 32,26 р.",
+    "1,996 товаров
+от 39,60 р.",
+    "85 товаров
+от 10,95 р.",
+    "426 товаров
+от 11,84 р.",
+    "136 товаров
+от 49,14 р.",
+    "29 товаров
+от 51,05 р."]
+to match given predicate but these elements did not:
+  ["1,622 товара
+от 124,80 р.",
+    "1,147 товаров
+от 57,72 р.",
+    "1,652 товара
+от 140,18 р.",
+    "4,326 товаров
+от 38,01 р.",
+    "3,111 товаров
+от 2,00 р.",
+    "3,062 товара
+от 79,16 р.",
+    "1,092 товара
+от 51,70 р.",
+    "2,699 товаров
+от 32,26 р.",
+    "1,996 товаров
+от 39,60 р.",
+    "85 товаров
+от 10,95 р.",
+    "426 товаров
+от 11,84 р.",
+    "136 товаров
+от 49,14 р.",
+    "29 товаров
+от 51,05 р."]
+	at com.it_academy.tests.onliner.SelenideOnlinerTest.testProductsAndDescriptionInAccessoriesAreNotEmpty(SelenideOnlinerTest.java:45)
+
+testCatalogItemsIsNotEmpty  Time elapsed: 3.622 s  <<< FAILURE!
+java.lang.AssertionError: 
+[Catalog items are empty] 
+Expecting empty but was: ["Электроника",
+    "Компьютеры и сети",
+    "Бытовая техника",
+    "Стройка и ремонт",
+    "Дом и сад",
+    "Авто и мото",
+    "Красота и спорт",
+    "Детям и мамам",
+    "Работа и офис",
+    "Еда"]
+	at com.it_academy.tests.onliner.SelenideOnlinerTest.testCatalogItemsIsNotEmpty(SelenideOnlinerTest.java:20)
+
