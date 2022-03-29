@@ -17,7 +17,7 @@ public class SelenideOnlinerTest extends BaseTest {
 
         assertThat(catalogPage.getItemsInsideCatalog())
                 .as("Catalog items are empty")
-                .isEmpty();
+                .isNotEmpty();
     }
 
     @DisplayName("Check That 'Computers And Nets' Contains 'Ноутбуки, компьютеры, мониторы', 'Комплектующие',"
@@ -42,7 +42,7 @@ public class SelenideOnlinerTest extends BaseTest {
         assertThat(itemsOfAccessories)
                 .as("Accessories doesn't contain min price")
                 .allMatch(i -> i != null)
-                .allMatch(i -> i.contains("jjjj"))
+                .allMatch(i -> i.contains("от"))
                 .allMatch(i -> i.contains("р."));
     }
 }
