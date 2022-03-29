@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="WebOnlinerSeleniumProject" />
         <module name="OnlinerWebProject" />
+        <module name="29WebOnlinerSelenideProgect" />
         <module name="WebOnliner7Project" />
         <module name="WebDriverProject" />
         <module name="WebOnlinerSelenideProject" />

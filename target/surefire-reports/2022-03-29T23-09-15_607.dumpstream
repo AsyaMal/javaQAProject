@@ -1,0 +1,168 @@
+# Created on 2022-03-29T23:09:18.943
+���. 29, 2022 11:09:18 PM org.junit.platform.launcher.core.EngineIdValidator validate
+
+# Created on 2022-03-29T23:09:18.943
+WARNING: Third-party TestEngine implementations are forbidden to use the reserved 'junit-' prefix for their ID: 'junit-platform-suite'
+
+# Created on 2022-03-29T23:09:20.395
+[Fatal Error] log4j2.xml:19:24: Premature end of file.
+
+# Created on 2022-03-29T23:09:20.401
+ERROR StatusLogger Error parsing D:\JavaQA\29WebOnlinerSelenideProgect\target\classes\log4j2.xml
+
+# Created on 2022-03-29T23:09:20.402
+ org.xml.sax.SAXParseException; systemId: file:///D:/JavaQA/29WebOnlinerSelenideProgect/target/classes/log4j2.xml; lineNumber: 19; columnNumber: 24; Premature end of file.
+
+# Created on 2022-03-29T23:09:20.404
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+
+# Created on 2022-03-29T23:09:20.404
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+
+# Created on 2022-03-29T23:09:20.404
+	at org.apache.logging.log4j.core.config.xml.XmlConfiguration.<init>(XmlConfiguration.java:92)
+
+# Created on 2022-03-29T23:09:20.405
+	at org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory.getConfiguration(XmlConfigurationFactory.java:46)
+
+# Created on 2022-03-29T23:09:20.405
+	at org.apache.logging.log4j.core.config.ConfigurationFactory$Factory.getConfiguration(ConfigurationFactory.java:557)
+
+# Created on 2022-03-29T23:09:20.406
+	at org.apache.logging.log4j.core.config.ConfigurationFactory$Factory.getConfiguration(ConfigurationFactory.java:481)
+
+# Created on 2022-03-29T23:09:20.406
+	at org.apache.logging.log4j.core.config.ConfigurationFactory.getConfiguration(ConfigurationFactory.java:323)
+
+# Created on 2022-03-29T23:09:20.407
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:695)
+
+# Created on 2022-03-29T23:09:20.407
+	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:716)
+
+# Created on 2022-03-29T23:09:20.408
+	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:270)
+
+# Created on 2022-03-29T23:09:20.408
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+
+# Created on 2022-03-29T23:09:20.409
+	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+
+# Created on 2022-03-29T23:09:20.409
+	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+
+# Created on 2022-03-29T23:09:20.410
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getContext(AbstractLoggerAdapter.java:137)
+
+# Created on 2022-03-29T23:09:20.410
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getContext(Log4jLoggerFactory.java:55)
+
+# Created on 2022-03-29T23:09:20.410
+	at org.apache.logging.log4j.spi.AbstractLoggerAdapter.getLogger(AbstractLoggerAdapter.java:47)
+
+# Created on 2022-03-29T23:09:20.411
+	at org.apache.logging.slf4j.Log4jLoggerFactory.getLogger(Log4jLoggerFactory.java:33)
+
+# Created on 2022-03-29T23:09:20.411
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:358)
+
+# Created on 2022-03-29T23:09:20.412
+	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:383)
+
+# Created on 2022-03-29T23:09:20.412
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.<clinit>(AllureJunitPlatform.java:85)
+
+# Created on 2022-03-29T23:09:20.412
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2022-03-29T23:09:20.413
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2022-03-29T23:09:20.413
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2022-03-29T23:09:20.414
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+
+# Created on 2022-03-29T23:09:20.414
+	at java.base/java.util.ServiceLoader$ProviderImpl.newInstance(ServiceLoader.java:780)
+
+# Created on 2022-03-29T23:09:20.414
+	at java.base/java.util.ServiceLoader$ProviderImpl.get(ServiceLoader.java:722)
+
+# Created on 2022-03-29T23:09:20.415
+	at java.base/java.util.ServiceLoader$3.next(ServiceLoader.java:1395)
+
+# Created on 2022-03-29T23:09:20.415
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+
+# Created on 2022-03-29T23:09:20.416
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+
+# Created on 2022-03-29T23:09:20.416
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:497)
+
+# Created on 2022-03-29T23:09:20.416
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:487)
+
+# Created on 2022-03-29T23:09:20.417
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+
+# Created on 2022-03-29T23:09:20.417
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+
+# Created on 2022-03-29T23:09:20.418
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:239)
+
+# Created on 2022-03-29T23:09:20.419
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+
+# Created on 2022-03-29T23:09:20.420
+	at org.junit.platform.launcher.core.LauncherFactory.create(LauncherFactory.java:108)
+
+# Created on 2022-03-29T23:09:20.421
+	at org.junit.platform.launcher.core.LauncherFactory.create(LauncherFactory.java:75)
+
+# Created on 2022-03-29T23:09:20.423
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.<init>(JUnitPlatformProvider.java:85)
+
+# Created on 2022-03-29T23:09:20.424
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2022-03-29T23:09:20.424
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2022-03-29T23:09:20.425
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2022-03-29T23:09:20.425
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+
+# Created on 2022-03-29T23:09:20.426
+	at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:123)
+
+# Created on 2022-03-29T23:09:20.426
+	at org.apache.maven.surefire.booter.ForkedBooter.createProviderInCurrentClassloader(ForkedBooter.java:403)
+
+# Created on 2022-03-29T23:09:20.426
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+
+# Created on 2022-03-29T23:09:20.427
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created on 2022-03-29T23:09:20.428
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created on 2022-03-29T23:09:20.428
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created on 2022-03-29T23:09:20.459
+ERROR StatusLogger No logging configuration
+
+# Created on 2022-03-29T23:09:25.508
+���. 29, 2022 11:09:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+# Created on 2022-03-29T23:09:25.509
+INFO: Detected dialect: W3C
+

@@ -1,2 +1,4 @@
 com\it_academy\tests\onliner\BaseTest.class
+com\it_academy\tests\onliner\utils\ScreenshotUtils.class
 com\it_academy\tests\onliner\SelenideOnlinerTest.class
+com\it_academy\tests\onliner\listeners\AllureListener.class
