@@ -8,7 +8,6 @@
     <artifactId>WebOnlinerSelenideProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -76,23 +75,6 @@
         </plugins>
     </build>
 
-<!--    <reporting>-->
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-surefire-report-plugin</artifactId>-->
-<!--                <version>3.0.0-M5</version>-->
-<!--                <configuration>-->
-<!--                    <outputName>FinalProject Report</outputName>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-jxr-plugin</artifactId>-->
-<!--                <version>3.1.1</version>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
-<!--    </reporting>-->
 
     <dependencies>
         <dependency>

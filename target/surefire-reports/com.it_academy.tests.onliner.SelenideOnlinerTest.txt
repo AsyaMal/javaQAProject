@@ -1,67 +1,67 @@
 -------------------------------------------------------------------------------
 Test set: com.it_academy.tests.onliner.SelenideOnlinerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 39.857 s <<< FAILURE! - in com.it_academy.tests.onliner.SelenideOnlinerTest
-testProductsAndDescriptionInAccessoriesAreNotEmpty  Time elapsed: 8.133 s  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.748 s <<< FAILURE! - in com.it_academy.tests.onliner.SelenideOnlinerTest
+testProductsAndDescriptionInAccessoriesAreNotEmpty  Time elapsed: 7.508 s  <<< FAILURE!
 java.lang.AssertionError: 
 [Accessories doesn't contain min price] 
 Expecting all elements of:
-  ["1,622 товара
-от 124,80 р.",
+  ["1,625 товаров
+от 118,78 р.",
     "1,147 товаров
-от 57,72 р.",
-    "1,652 товара
-от 140,18 р.",
-    "4,326 товаров
-от 38,01 р.",
-    "3,111 товаров
-от 2,00 р.",
-    "3,062 товара
-от 79,16 р.",
-    "1,092 товара
-от 51,70 р.",
-    "2,699 товаров
-от 32,26 р.",
-    "1,996 товаров
-от 39,60 р.",
+от 55,93 р.",
+    "1,653 товара
+от 138,06 р.",
+    "4,328 товаров
+от 37,54 р.",
+    "3,115 товаров
+от 1,59 р.",
+    "3,064 товара
+от 79,45 р.",
+    "1,091 товар
+от 43,82 р.",
+    "2,703 товара
+от 27,76 р.",
+    "1,997 товаров
+от 38,48 р.",
     "85 товаров
 от 10,95 р.",
-    "426 товаров
+    "427 товаров
 от 11,84 р.",
     "136 товаров
-от 49,14 р.",
+от 48,86 р.",
     "29 товаров
-от 51,05 р."]
+от 50,32 р."]
 to match given predicate but these elements did not:
-  ["1,622 товара
-от 124,80 р.",
+  ["1,625 товаров
+от 118,78 р.",
     "1,147 товаров
-от 57,72 р.",
-    "1,652 товара
-от 140,18 р.",
-    "4,326 товаров
-от 38,01 р.",
-    "3,111 товаров
-от 2,00 р.",
-    "3,062 товара
-от 79,16 р.",
-    "1,092 товара
-от 51,70 р.",
-    "2,699 товаров
-от 32,26 р.",
-    "1,996 товаров
-от 39,60 р.",
+от 55,93 р.",
+    "1,653 товара
+от 138,06 р.",
+    "4,328 товаров
+от 37,54 р.",
+    "3,115 товаров
+от 1,59 р.",
+    "3,064 товара
+от 79,45 р.",
+    "1,091 товар
+от 43,82 р.",
+    "2,703 товара
+от 27,76 р.",
+    "1,997 товаров
+от 38,48 р.",
     "85 товаров
 от 10,95 р.",
-    "426 товаров
+    "427 товаров
 от 11,84 р.",
     "136 товаров
-от 49,14 р.",
+от 48,86 р.",
     "29 товаров
-от 51,05 р."]
+от 50,32 р."]
 	at com.it_academy.tests.onliner.SelenideOnlinerTest.testProductsAndDescriptionInAccessoriesAreNotEmpty(SelenideOnlinerTest.java:45)
 
-testCatalogItemsIsNotEmpty  Time elapsed: 3.622 s  <<< FAILURE!
+testCatalogItemsIsNotEmpty  Time elapsed: 2.984 s  <<< FAILURE!
 java.lang.AssertionError: 
 [Catalog items are empty] 
 Expecting empty but was: ["Электроника",
