@@ -10,7 +10,7 @@ import java.io.File;
 import java.io.IOException;
 
 public final class ScreenshotUtils {
-    protected static final Logger LOG = LoggerFactory.getLogger(ScreenshotUtils.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ScreenshotUtils.class);
 
     private ScreenshotUtils() {
     }

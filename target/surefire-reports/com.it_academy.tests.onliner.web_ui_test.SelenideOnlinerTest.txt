@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.it_academy.tests.onliner.web_ui_test.SelenideOnlinerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.808 s - in com.it_academy.tests.onliner.web_ui_test.SelenideOnlinerTest
