@@ -1,9 +1,9 @@
-com\it_academy\tests\onliner\web_ui_test\MinPriceTest.class
-com\it_academy\tests\onliner\api_test\OnlinerElectroBikeProductFilterTest.class
+com\it_academy\tests\onliner\rest_api_test\BaseApiTest.class
+com\it_academy\tests\onliner\rest_api_test\OnlinerElectroBikeProductTest.class
 com\it_academy\tests\onliner\utils\ScreenshotUtils.class
-com\it_academy\tests\onliner\api_test\BaseApiTest.class
-com\it_academy\tests\onliner\web_ui_test\SelenideOnlinerTest.class
-com\it_academy\tests\onliner\web_ui_test\CertainFourElementTest.class
-com\it_academy\tests\onliner\api_test\OnlinerElectroBikeProductTest.class
+com\it_academy\tests\onliner\web_ui_test\CatalogOnlinerItemsTest.class
+com\it_academy\tests\onliner\web_ui_test\AccessoriesMinPriceTest.class
+com\it_academy\tests\onliner\rest_api_test\OnlinerElectroBikeProductFilterTest.class
+com\it_academy\tests\onliner\web_ui_test\ComputersAndNetsCertainFourElementTest.class
 com\it_academy\tests\onliner\listeners\AllureListener.class
-com\it_academy\tests\onliner\web_ui_test\BaseTest.class
+com\it_academy\tests\onliner\web_ui_test\BaseWebTest.class

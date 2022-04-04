@@ -1,4 +1,5 @@
 package com.it_academy.onliner.web_ui.framework;
+
 import com.codeborne.selenide.WebDriverProvider;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;

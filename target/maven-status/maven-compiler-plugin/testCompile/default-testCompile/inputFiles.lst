@@ -1,9 +1,9 @@
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\api_test\OnlinerElectroBikeProductTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\rest_api_test\BaseApiTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\BaseWebTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\rest_api_test\OnlinerElectroBikeProductTest.java
 D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\utils\ScreenshotUtils.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\api_test\OnlinerElectroBikeProductFilterTest.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\CertainFourElementTest.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\BaseTest.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\api_test\BaseApiTest.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\SelenideOnlinerTest.java
-D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\MinPriceTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\ComputersAndNetsCertainFourElementTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\rest_api_test\OnlinerElectroBikeProductFilterTest.java
 D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\listeners\AllureListener.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\AccessoriesMinPriceTest.java
+D:\JavaQA\29WebOnlinerSelenideProgect\src\test\java\com\it_academy\tests\onliner\web_ui_test\CatalogOnlinerItemsTest.java

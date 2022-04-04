@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.it_academy.tests.onliner.api_test.OnlinerElectroBikeProductFilterTest" time="4.443" tests="1" errors="0" skipped="0" failures="0">
-  <properties/>
-  <testcase name="testElectroBikeProductFilteredByName" classname="com.it_academy.tests.onliner.api_test.OnlinerElectroBikeProductFilterTest" time="4.384"/>
-</testsuite>

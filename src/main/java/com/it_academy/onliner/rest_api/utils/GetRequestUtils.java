@@ -2,8 +2,6 @@ package com.it_academy.onliner.rest_api.utils;
 
 import io.restassured.response.ResponseBody;
 import org.apache.commons.collections4.MapUtils;
-//import org.apache.commons.exec.util.MapUtils;
-
 import org.apache.http.HttpStatus;
 
 import java.util.Map;
@@ -28,4 +26,4 @@ public final class GetRequestUtils {
                 .response()
                 .getBody();
     }
-   }
+}

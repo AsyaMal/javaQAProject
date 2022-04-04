@@ -1,6 +1,8 @@
 package com.it_academy.onliner.web_ui.pageobject;
+
 import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.ElementsCollection;
 import com.it_academy.onliner.web_ui.framework.BasePage;
 import io.qameta.allure.Step;
 
@@ -12,24 +14,24 @@ import static java.time.Duration.ofSeconds;
 
 public class CatalogPage extends BasePage {
 
-    // находит 10 items Каталога
-    private static final String CATALOG_NAVIGATION_CLASSIFIER_ITEM =
-            "//li[@class = 'catalog-navigation-classifier__item ']";
-    // кнопка "Копьютеры и сети"
+    private final ElementsCollection catalogNavigationClassifiertItems =
+            $$x("//li[@class = 'catalog-navigation-classifier__item ']");
     private static final String CATALOG_NAVIGATION_CLASSIFIER_ITEM_COMPUTERS_AND_NETS =
             "//span[contains(text(),'Компьютеры и')]";
+    private final ElementsCollection catalogNavigation =
+            $$x("//li[@id = 'catalog-navigation-classifier__item ']");
 
-    // получить коллекцию из 10 items в Каталоге
     @Step("Get items inside Catalog")
     public List<String> getItemsInsideCatalog() {
-        return $$x(CATALOG_NAVIGATION_CLASSIFIER_ITEM)
-                .shouldBe(CollectionCondition.sizeGreaterThan(1), ofSeconds(60)).texts();
+        return catalogNavigationClassifiertItems
+                .shouldBe(CollectionCondition.sizeGreaterThan(COLLECTION_SIZE_MIN), ofSeconds(TIME_WAIT))
+                .texts();
     }
 
-    // нажать на "Компьютеры и сети"
     @Step("Click on ComputersAndNets")
     public ComputersAndNetsItem clickOnCatalogClassifierComputersAndNets() {
-        $x(CATALOG_NAVIGATION_CLASSIFIER_ITEM_COMPUTERS_AND_NETS).shouldBe(Condition.visible, ofSeconds(60))
+        $x(CATALOG_NAVIGATION_CLASSIFIER_ITEM_COMPUTERS_AND_NETS)
+                .shouldBe(Condition.visible, ofSeconds(TIME_WAIT))
                 .click();
         return new ComputersAndNetsItem();
     }

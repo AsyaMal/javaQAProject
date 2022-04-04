@@ -3,13 +3,16 @@ package com.it_academy.onliner.web_ui.framework;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
 public class RemoteDriverCreator implements WebDriverCreator<RemoteWebDriver> {
 
-    private static final String BROWSER = "chrome";
+    protected static final Logger LOG = LoggerFactory.getLogger(RemoteDriverCreator.class);
+    private static final String BROWSER = "MicrosoftEdge";
 
     @Override
     public RemoteWebDriver create() {
@@ -24,9 +27,8 @@ public class RemoteDriverCreator implements WebDriverCreator<RemoteWebDriver> {
         try {
             return new URL(System.getProperty("webdriver.remote.driver"));
         } catch (MalformedURLException e) {
-            System.out.println("URL doesn't create");
+            LOG.error("URL doesn't create");
             throw new IllegalStateException(e.getMessage(), e);
         }
     }
-
 }

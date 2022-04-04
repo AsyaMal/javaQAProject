@@ -1,6 +1,7 @@
 package com.it_academy.onliner.web_ui.framework;
 
 public class DriverCreatorFactory {
+
     private DriverCreatorFactory() {
 
     }
@@ -9,7 +10,7 @@ public class DriverCreatorFactory {
         switch (driverType) {
             case "chrome":
                 return new ChromeDriverCreator();
-            case "edge":
+            case "MicrosoftEdge":
                 return new EdgeDriverCreator();
             case "remote":
                 return new RemoteDriverCreator();
